@@ -3,7 +3,7 @@ id: 28
 title: 'Also Posting at BLITZ Labs'
 date: '2010-01-11T01:22:22+00:00'
 author: ngedrich
-# layout: post
+layout: single
 guid: 'http://gator1150.hostgator.com/~ngedrich/?p=28'
 permalink: /2010/01/also-posting-at-blitz-labs/
 dsq_thread_id:

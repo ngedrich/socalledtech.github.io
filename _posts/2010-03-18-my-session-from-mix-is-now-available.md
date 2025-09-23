@@ -3,7 +3,7 @@ id: 39
 title: 'My session from MIX is now available'
 date: '2010-03-18T20:06:26+00:00'
 author: ngedrich
-# layout: post
+layout: single
 guid: 'http://www.socalledtech.com/?p=39'
 permalink: /2010/03/my-session-from-mix-is-now-available/
 dsq_thread_id:
