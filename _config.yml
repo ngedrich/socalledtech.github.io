@@ -18,21 +18,24 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Tell Me More about this...
 twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+github_username: ngedrich
+minimal_mistakes_skin: air
 search: true
+
+locale: "en-US"
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - _recipes
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -55,35 +58,38 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+collections:
+  recipes:
+    output: true
+    layout: "single"
+    permalink: /:collection/:name/
+
 author:
   name   : "Noah Gedrich"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/noah-headshot.jpg"
+  bio    : "Escapee from the Agency World. Now living in ecommerce land."
   links:
-    - label: "Website"
+    - label: "Stanley 1913"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://stanley1913.com"
+    - label: "BlueSky"
+      icon: "fab fa-fw fa-brands fa-square-bluesky"
+      url: https://bsky.app/profile/socalledtech.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/ngedrich"
+    
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Stanley 1913"
+      icon: "fas fa-fw fa-link"
+      url: "https://stanley1913.com"
+    - label: "BlueSky"
+      icon: "fab fa-fw fa-brands fa-square-bluesky"
+      url: https://bsky.app/profile/socalledtech.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ngedrich"
 
 defaults:
   # _posts
@@ -104,6 +110,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
 
 category_archive:
   type: liquid
