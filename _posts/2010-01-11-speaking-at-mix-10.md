@@ -3,7 +3,7 @@ id: 31
 title: 'Speaking at MIX 10'
 date: '2010-01-11T01:25:49+00:00'
 author: ngedrich
-# layout: post
+layout: single
 guid: 'http://gator1150.hostgator.com/~ngedrich/?p=31'
 permalink: /2010/01/speaking-at-mix-10/
 dsq_thread_id:

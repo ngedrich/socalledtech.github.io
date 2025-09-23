@@ -4,6 +4,7 @@ title: 'English Breakfast Stew of Beef (aka Man Stew)'
 date: '2010-11-08T00:54:39+00:00'
 author: ngedrich
 guid: 'http://www.socalledtech.com/?p=43'
+layout: single
 permalink: /2010/11/english-breakfast-stew-of-beef-aka-man-stew/
 dsq_thread_id:
     - '237643241'
@@ -13,7 +14,9 @@ categories:
     - Recipes
 ---
 
-My Mom used to make this recipe all the time when I was a kid and making it now always reminds me of home. **Ingredients**
+My Mom used to make this recipe all the time when I was a kid and making it now always reminds me of home. 
+
+**Ingredients**
 
 - 2 tablespoons butter
 - 1 medium onion, chopped
