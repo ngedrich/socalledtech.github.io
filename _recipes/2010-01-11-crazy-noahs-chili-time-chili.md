@@ -19,7 +19,7 @@ categories:
     - Recipes
 ---
 
-![Image](https://socalledtech.com/wp-content/uploads/2010/01/PXL_20210908_192726964-2-1024x918.jpg)
+![Image](/assets/uploads/2010/01/PXL_20210908_192726964-2-1024x918.jpg)
 
 **Ingredients:**  
 - 1 Tbsp Butter  

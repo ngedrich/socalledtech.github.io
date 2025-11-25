@@ -11,6 +11,7 @@ dsq_thread_id:
 categories:
     - Recipes
 ---
+![Image](/assets/images/mac-and-cheese.png)
 
 **Ingredients:**  
 - 1/4 cup flour  
